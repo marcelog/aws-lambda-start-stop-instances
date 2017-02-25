@@ -1,0 +1,12 @@
+{
+  "name": "lambda_start_stop_ec2",
+  "version": "0.0.1",
+  "description": "ServerLess approach for Starting and Stopping EC2 instances with AWS Lambda",
+  "main": "index.js",
+  "author": "Marcelo Gornstein <marcelog@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "aws-sdk": "^2.3.0",
+    "promise": "^7.1.1"
+  }
+}
