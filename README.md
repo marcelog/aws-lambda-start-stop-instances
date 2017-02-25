@@ -17,10 +17,12 @@ Read the article for the details.
 
 ```json
 {
-  "action": "start"            // Or "stop"
+  "action": "start",
   "instanceId": "i-xxxx"
 }
 ```
+
+Action can be one of `stop` or `start`.
 
 # License
 The source code is released under Apache 2 License.
