@@ -69,7 +69,7 @@ exports.handler = function (event, context, callback) {
     console.log('[INFO]', 'Done', msgAction);
     return p(ec2, event.instanceId);
   }).then(function () {
-    callback();
+    return callback();
   }).catch(function (err) {
     console.log('[ERROR]', JSON.stringify(err));
     return callback(err);
